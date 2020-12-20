@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Code lernen</string>
+    <string name="click">Click</string>
+    <string name="oop">OOP</string>
+    <string name="constructors">Constructors</string>
+    <string name="modifiers">Modifiers</string>
+    <string name="encapsulation">Encapsulation</string>
+    <string name="inheritance">Inheritance</string>
+    <string name="polymorphism">Polymorphism</string>
+    <string name="innerClass">Inner Class</string>
+    <string name="abstraction">Abstraction</string>
+    <string name="interfaceeee">Interface</string>
+    <string name="arrayList">Array List</string>
+    <string name="linkedList">Linked List</string>
+    <string name="hashMap">Hash Map</string>
+    <string name="wrapperClasses">Wrapper Classes</string>
+    <string name="exeptions">Exeptions</string>
+    <string name="javaOOP">Java - What is OOP?
+        \n
+        OOP stands for Object-Oriented Programming.  Procedural programming is about writing procedures or methods that perform operations on the data, while object-oriented programming is about creating objects that contain both data and methods.  Object-oriented programming has several advantages over procedural programming:  OOP is faster and easier to execute OOP provides a clear structure for the programs OOP helps to keep the Java code DRY \"Don\'t Repeat Yourself\", and makes the code easier to maintain, modify and debug OOP makes it possible to create full reusable applications with less code and shorter development time</string>
+    <string name="lambda">Lambda</string>
+    <string name="date">Date</string>
+    <string name="overloading">Method Overloading</string>
+    <string name="recursion">Recursion</string>
+    <string name="conTxt">A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for object attributes:</string>
+    <string name="examCons">Example Create a constructor:  // Create a Main class
+        \n public class Main {   int x;  // Create a class attribute    // Create a class constructor for the Main class   public Main() {     x = 5;  // Set the initial value for the class attribute x   }    public static void main(String[] args) {     Main myObj = new Main(); // Create an object of class Main (This will call the constructor)     System.out.println(myObj.x); // Print the value of x   } }</string>
+    <string name="txtModifiers">The public keyword is an access modifier, meaning that it is used to set the access level for classes, attributes, methods and constructors.  We divide modifiers into two groups:  Access Modifiers - controls the access level Non-Access Modifiers - do not control access level, but provides other functionality</string>
+    <string name="txtEncapsulation">Encapsulation The meaning of Encapsulation, is to make sure that \"sensitive\" data is hidden from users. To achieve this, you must:  declare class variables/attributes as private provide public get and set methods to access and update the value of a private variable</string>
+    <string name="txtEncapsulation2">Get and Set You learned from the previous chapter that private variables can only be accessed within the same class (an outside class has no access to it). However, it is possible to access them if we provide public get and set methods.  The get method returns the variable value, and the set method sets the value.</string>
+    <string name="txtInheritance">Java Inheritance (Subclass and Superclass) In Java, it is possible to inherit attributes and methods from one class to another. We group the \"inheritance concept\" into two categories:  subclass (child) - the class that inherits from another class superclass (parent) - the class being inherited from To inherit from a class, use the extends keyword.</string>
+    <string name="txtPolymorphism">Java Polymorphism Polymorphism means \"many forms\", and it occurs when we have many classes that are related to each other by inheritance.  Like we specified in the previous chapter; Inheritance lets us inherit attributes and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways.  For example, think of a superclass called Animal that has a method called animalSound(). Subclasses of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.):</string>
+    <string name="txtInnerClass">Java Inner Classes In Java, it is also possible to nest classes (a class within a class). The purpose of nested classes is to group classes that belong together, which makes your code more readable and maintainable.  To access the inner class, create an object of the outer class, and then create an object of the inner class:</string>
+    <string name="txtAbstraction">Abstract Classes and Methods Data abstraction is the process of hiding certain details and showing only essential information to the user. Abstraction can be achieved with either abstract classes or interfaces (which you will learn more about in the next chapter).  The abstract keyword is a non-access modifier, used for classes and methods:  Abstract class: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).  Abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="interrface">Another way to achieve abstraction in Java, is with interfaces.  An interface is a completely \"abstract class\" that is used to group related methods with empty bodies:</string>
+</resources>
